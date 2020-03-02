@@ -1,0 +1,20 @@
+<h1>Count page</h1>
+<a href="{% url 'homes'%}">Start again</a>
+<!-- <a href="http://google.com">Start again</a> -->
+Print 
+<br>
+{{ fulltext }}
+<br>
+{{ count }} chars
+
+{{ words}} words
+<br>
+{{worddictionary}}
+<br>
+
+{% for word, counttotal in worddictionary %}
+
+{{ word }} : 
+{{counttotal}}
+<br>
+{% endfor %}
