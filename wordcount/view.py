@@ -13,8 +13,6 @@ def about(request):
 def eggs(request):
     return HttpResponse('<h1>This is eggs page</h1>')
 
-def eggs2(request):
-    return HttpResponse('<h1>This is eggs page2</h1>')
 
 def count(request):
     # return HttpResponse('Hello World')
