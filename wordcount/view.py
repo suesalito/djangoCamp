@@ -7,6 +7,7 @@ def home(request):
 
 def about(request):
     # return HttpResponse('Hello World')
+    # test commit from Git and try to see how it update back to VScode
     return render(request,'about.html')
 
 def eggs(request):
